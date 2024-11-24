@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 21:36:56 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/23 11:50:50 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/24 18:46:41 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	swap_stack(t_stack **top)
 	t_stack	*first;
 	t_stack	*second;
 
-	if (!top || !(*top) || !(*top)->next)	
+	if (!top || !(*top) || !(*top)->next)
 		return ;
 	first = *top;
 	second = first->next;
@@ -79,7 +79,7 @@ void	push_stack(t_stack **top_dest, t_stack **top_src)
 {
 	t_stack	*dest;
 	t_stack	*src;
-	
+
 	if (!top_dest || !top_src || !(*top_src))
 		return ;
 	src = *top_src;
@@ -145,27 +145,4 @@ void	reverse_rotate_stack(t_stack **top)
 	last->next = first;
 	first->prev = last;
 	*top = last;
-}
-
-/*
- * Function: reverse_rotate_both_stacks
- * ------------------------------------
- * This function takes the last element of the both stackspointed by 'top_a' and
- * 'top_b' and put them at the begining of respective stacks. The pointers MUST
- * point to the first element of each stack, otherwise the behavior is
- * undefined
- *
- * top_a: Pointer to the first element of the stack a.
- * top_b: Pointer to the first element of the stack b.
- *
- * returns: No return as it works directly in the memmory.
- */
-void	reverse_rotate_both_stacks(t_stack **top_a, t_stack **top_b)
-{
-	if (!top_a || !top_b || !(*top_a) || !(*top_b))
-		return ;
-	if (*top_a && (*top_a)->next)
-		reverse_rotate_stack(top_a);
-	if (*top_b && (*top_b)->next)
-		reverse_rotate_stack(top_b);
 }

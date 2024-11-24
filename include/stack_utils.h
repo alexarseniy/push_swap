@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 12:40:48 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/23 13:10:15 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/24 20:30:45 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 /*
  * Typedef: t_stack
  * ----------------
- * Defines a structure representing a dtack node in a double-linked.
+ * Defines a structure representing a stack node in a double-linked.
  *
  * value: Integer value stored in the node.
  * index: Auxiliar integer value that store the final index position.
@@ -40,7 +40,7 @@ t_stack	*stack_new(int value);
 t_stack *stack_last(t_stack *stack);
 void	*stack_add_last(t_stack **dest, t_stack *new);
 int		stack_size(t_stack *stack);
-void	*stack_clean(t_stack **top);
+void	*stack_clear(t_stack **top);
 void	swap_stack(t_stack **top);
 void	swap_both_stacks(t_stack **top_a, t_stack **top_b);
 void	push_stack(t_stack **top_dest, t_stack **top_src);

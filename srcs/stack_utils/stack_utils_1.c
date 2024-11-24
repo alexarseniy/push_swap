@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 11:05:12 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/23 12:58:09 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/24 20:30:26 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ t_stack	*stack_new(int value)
  * Note: This function implicitly knows when the stack is empty, as it's value
  * will be NULL.
  */
-t_stack *stack_last(t_stack *stack)
+t_stack	*stack_last(t_stack *stack)
 {
 	while (stack && stack->next)
 		stack = stack->next;
@@ -109,18 +109,18 @@ int	stack_size(t_stack *stack)
 }
 
 /*
- * Function: stack_clean
+ * Function: stack_clear
  * ---------------------
  * Clears all elements from the stack, freeing the memmory and
  * clearing the memmory by setting to NULL all pointers using an auxiliar node.
- * The param 'stack' is a pointer to the first elemnt of the stack, otherwise 
+ * The param 'stack' is a pointer to the first element of the stack, otherwise 
  * the behavior is undefined.
  *
  * stack: Pointer to the first element of the stack.
  *
- * returns: This function returns NULL after clearing the memmory.
+ * returns: This function returns NULL after clearing the memory.
  */
-void	*stack_clean(t_stack **top)
+void	*stack_clear(t_stack **top)
 {
 	t_stack	*node;
 
