@@ -6,14 +6,14 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 19:22:23 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/25 21:03:43 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/26 21:17:03 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "stack_utils.h"
 #include "error_handler.h"
-#define S_INT_MAX "2147483647"
-#define S_INT_MIN "-2147483648"
+#include "libft.h"
+#include <stdbool.h>
 
 /*
  * Function: error_message
@@ -25,9 +25,8 @@
  * 
  * returns: return the same error number.
  */
-int	error_message(enum e_errors error)
-{
-	ft_putstr_fd("Error\n");
+int	error_message(t_errors error) {
+	ft_putstr_fd("Error\n", 2);
 	return (error);
 }
 
@@ -40,21 +39,25 @@ int	error_message(enum e_errors error)
  * it will close the program printing the "Error\n" message and exit with the 
  * error number.
  *
- * num: String that contain a chain of numbers or a '-' sign followed by a chain
+ * s_num: String that contain a chain of numbers or a '-' sign followed by a chain
  *      of numbers.
+ * num: Same number transformed to integer
+ * stack: Double linked list-based stack that will be checked for duplicates.
  *
  * return: true if it passed all the validations.
  */
-int	check_valid_input(char *num)
+int	check_valid_input(char *s_num, int num, t_stack *stack)
 {
-	if (!num)
-		return (error_message(ERROR_NULL));
-	if (!*num)
-		return (error_message(ERROR_VOID));
-	if (!is_number(num))
-		return (error_message(ERROR_NOT_A_NUMBER));
-	if (!is_integer(num))
-		return (error_message(ERROR_NOT_AN_INTEGER));
+	if (!s_num)
+		return (ERROR_NULL_NUM_STR);
+	if (!*s_num)
+		return (ERROR_VOID_NUM_STR);
+	if (!is_number(s_num))
+		return (ERROR_NOT_A_NUMBER);
+	if (!is_integer(s_num))
+		return (ERROR_NOT_AN_INTEGER);
+	if (is_duplicated(num, stack))
+		return (ERROR_DUP_NUM);
 	return (OK);
 }
 
@@ -74,13 +77,13 @@ int	check_valid_input(char *num)
 int is_duplicated(int num, t_stack *stack)
 {
 	if (!stack)
-		return (OK);
+		return (false);
 	while (stack && stack->value != num)
 		stack = stack->next;
 	if (stack && stack->value == num)
-		return (error_message(ERROR_DUP_NUM));
+		return (true);
 	else
-		return (OK);
+		return (false);
 }
 
 /*
@@ -132,6 +135,8 @@ int is_integer(char *num)
 		return (false);
 	if (len == 11 && *num == '-')
 		return (ft_strncmp(num, S_INT_MIN, 11) <= 0);
-	else
+	if (len == 10)
 		return (ft_strncmp(num, S_INT_MAX, 10) <= 0);
+	else
+		return (true);
 }

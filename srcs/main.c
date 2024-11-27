@@ -6,11 +6,13 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 18:50:42 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/25 21:27:25 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/26 22:12:06 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+#include <stdlib.h>
+#include "libft.h"
 
 /*
  * Function: set_update_indexes
@@ -43,22 +45,6 @@ int	set_update_indexes(int num, t_stack *stack)
 }
 
 /*
- * Function: exit_and_free
- * -----------------------
- * Free the alocated memory in stack and exit the program with the error number
- *
- * stack: the double linked list-based stack that must to be freed.
- * error: error number that will indicate where is the error.
- * 
- * return: No return
- */
-void	exit_and_free(t_stack *stack, enum e_error error)
-{
-	stack_clear(stack);
-	exit(error);
-}
-
-/*
  * Function: init_stack
  * --------------------
  * This function launch the checks to validade each number from the 'num_list'
@@ -74,22 +60,22 @@ void	exit_and_free(t_stack *stack, enum e_error error)
  */
 t_stack	*init_stack(char **num_list)
 {
-	enum e_errors	error;
-	t_stack			*stack;
+	int			num;
+	t_errors	error;
+	t_stack		*stack;
 
 	if (!num_list)
 		return (NULL);
 	stack = NULL;
 	while (*num_list)
 	{
-		error = check_valid_input(*num_list);
-		if (error != OK);
-			exit_and_free(stack, error);
 		num = ft_atoi(*num_list);
-		error = is_duplicated(num, stack);
+		error = check_valid_input(*num_list, num, stack);
 		if (error != OK)
 			exit_and_free(stack, error);
-		stack = stack_add_last(&stack, stack_new(ft_atoi(num)));
+		stack_add_last(&stack, stack_new(num));
+		if (!stack)
+			exit_and_free(stack, ERROR_CREATE_NEW_NODE);
 		stack_last(stack)->index = set_update_indexes(num, stack);
 		if (stack->index == -1)
 			exit_and_free(stack, ERROR_UPDATE_INDEX);
@@ -116,13 +102,14 @@ int	main(int argc, char **argv)
 	t_stack	*stack;
 
 	if (argc < 2)
-		return (error_message(ERROR_N_ARGS));
+		return (error_message(ERROR_NO_ARGS));
 	stack = init_stack(argv + 1);
 	if (!stack)
 		return (error_message(ERROR_INIT_STACK));
 	stack = push_swap(stack);
 	if (!stack)
 		return (error_message(ERROR_PUSH_SWAP));
-	stack_clear(stack);
+	print_stack(stack);
+	stack_clear(&stack);
 	return (OK);
 }

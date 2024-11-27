@@ -6,7 +6,7 @@
 #    By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/20 20:39:53 by olarseni          #+#    #+#              #
-#    Updated: 2024/11/20 23:31:17 by olarseni         ###   ########.fr        #
+#    Updated: 2024/11/26 21:06:51 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,19 +17,23 @@
 # Program name
 NAME	=	push_swap
 
-# Sources
-SDIR	=	srcs
-SRCS	=	
+
+# Sources with VPATH
+VPATH	=	srcs srcs/error_handler srcs/sort srcs/stack_utils
+SRCS	=	main.c				\
+			errors_handling.c	\
+			errors_handling_2.c	\
+			sort_1.c			\
+			stack_utils_1.c		\
+			stack_utils_2.c		\
+			stack_utils_3.c
 
 # Objects
 ODIR	=	objects
-OBJS	=	$(SRCS:%.c=%.o)
+OBJS	=	$(SRCS:%.c=$(ODIR)/%.o)
 
 # Includes
 IDIR	=	includes
-INCL	=	push_swap.h		\
-			stack_oper.h	\
-			list_utils.h
 
 # LIBFT
 LDIR	=	libft
@@ -39,7 +43,7 @@ LIBFT	=	libft.a
 CC		=	cc
 
 # Flags
-CFLAGS	=	-Wall -Wextra -Werror
+CFLAGS	=	-Wall -Wextra -Werror -g
 IFLAGS	=	-I$(IDIR) -I$(LDIR)
 LFLAGS	=	-L$(LDIR) -lft
 
@@ -71,27 +75,36 @@ BLINK	=	\033[5m
 
 all: $(NAME)
 
-$(NAME):
+$(ODIR)/%.o: %.c | $(ODIR)
+	@$(CC) $(CFLAGS) $(IFLAGS) -o $@ -c $<
+
+$(NAME): $(OBJS)
+	@make --silent -C $(LDIR) $(LIBFT)
+	@$(CC) $(CFLAGS) $(IFLAGS) -o $@ $^ $(LFLAGS)
 	@make --silent header
 	@make --silent compile
 	@echo "$(LGREEN)$(BOLD)COMPILATION FINISHED $(RESET)🎉"
-	@sleep 1.5
 	@make --silent footer
 
+$(LIBFT):
+	@make --silent -C $(LDIR)
+
+$(ODIR):
+	@mkdir -p $@
+
 clean:
-	rm -rf $(ODIR)
-	$(MAKE) -C --no-print-directory --silent $(LDIR) clean
+	@rm -rf $(ODIR)
+	@$(MAKE) --silent -C $(LDIR) clean
 
 fclean: clean
-	rm -f $(NAME)
-	$(MAKE) -C --no-print-directory --silent $(LDIR) fclean
+	@rm -f $(NAME)
+	@$(MAKE) --silent -C $(LDIR) fclean
 
 re: fclean all
 
 header:
-	@sleep 0.5
 	@echo "$$push_swap_art"
-	@sleep 1.5
+	@sleep 0.2
 	@echo "$(FAINT)$(CYAN)$(line)$(RESET)"
 	@echo "\t\t\t$(SAND)$(FAINT)$(ITALIC)WELCOME TO $(DRED)$(BOLD)$(NAME)$(RESET) $(SAND)$(FAINT)$(ITALIC)PROGRAM$(RESET)"
 	@echo "$(FAINT)$(CYAN)$(line)$(RESET)"
@@ -104,13 +117,13 @@ footer:
 
 compile:
 	@echo "$(LGREEN)$(BOLD)$(FAINT)START COMPILATION: $(RESET)"
-	@sleep 1
+	@sleep 0.1
 	@echo "$(LGREEN)$(FAINT)OBJS...$(RESET)"
-	@sleep 1
+	@sleep 0.1
 	@echo "$(LGREEN)$(FAINT)LIBFT...$(RESET)"
-	@sleep 1
+	@sleep 0.1
 	@echo "$(LGREEN)$(FAINT)$(NAME)...$(RESET)"
-	@sleep 1
+	@sleep 0.1
 
 .PHONY: all clean fclean re header
 

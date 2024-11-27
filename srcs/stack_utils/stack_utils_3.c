@@ -6,11 +6,12 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 18:45:31 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/24 18:45:46 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/26 22:13:16 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "stack_utils.h"
+#include "stdio.h"
 
 /*
  * Function: reverse_rotate_both_stacks
@@ -33,4 +34,30 @@ void	reverse_rotate_both_stacks(t_stack **top_a, t_stack **top_b)
 		reverse_rotate_stack(top_a);
 	if (*top_b && (*top_b)->next)
 		reverse_rotate_stack(top_b);
+}
+
+/*
+ * Function: print_stack
+ * ---------------------
+ * Print the values and indexes of all stack nodes.
+ *
+ * stack: A double linked list-based stack that will be printed
+ */
+void	print_stack(t_stack *stack)
+{
+	int	i;
+
+	if (!stack)
+		printf("(Null)\n");
+	else
+	{
+		i = 0;
+		while (stack)
+		{
+			printf("Element [%i]:\n\tValue: %d\n", i, stack->value);
+			printf("\tIndex: %d\n", stack->index);
+			stack = stack->next;
+			i++;
+		}
+	}
 }

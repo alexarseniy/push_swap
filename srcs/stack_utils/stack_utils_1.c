@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 11:05:12 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/24 20:30:26 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/26 21:03:22 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,12 +69,17 @@ t_stack	*stack_last(t_stack *stack)
  *
  * returns: No return as it add the new element directly using pointers.
  */
-void	*stack_add_last(t_stack **dest, t_stack *new)
+void	stack_add_last(t_stack **dest, t_stack *new)
 {
 	t_stack	*last;
 
 	if (!dest || !new)
 		return ;
+	if (!*dest)
+	{
+		*dest = new;
+		return ;
+	}
 	last = stack_last(*dest);
 	if (!last)
 		return ;
@@ -134,4 +139,5 @@ void	*stack_clear(t_stack **top)
 		free(*top);
 		*top = node;
 	}
+	return (NULL);
 }

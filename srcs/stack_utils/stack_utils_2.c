@@ -6,11 +6,12 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 21:36:56 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/24 18:46:41 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/26 19:17:39 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "stack_utils.h"
+#include <stdlib.h>
 
 /*
  * Function: swap_stack

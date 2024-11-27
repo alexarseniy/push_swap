@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 12:40:48 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/24 20:30:45 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/26 22:11:26 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ typedef struct s_stack
  */
 t_stack	*stack_new(int value);
 t_stack *stack_last(t_stack *stack);
-void	*stack_add_last(t_stack **dest, t_stack *new);
+void	stack_add_last(t_stack **dest, t_stack *new);
 int		stack_size(t_stack *stack);
 void	*stack_clear(t_stack **top);
 void	swap_stack(t_stack **top);
@@ -47,5 +47,6 @@ void	push_stack(t_stack **top_dest, t_stack **top_src);
 void	rotate_stack(t_stack **top);
 void	reverse_rotate_stack(t_stack **top);
 void	reverse_rotate_both_stacks(t_stack **top_a, t_stack **top_b);
+void	print_stack(t_stack *stack);
 
 #endif
