@@ -6,7 +6,7 @@
 #    By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/20 20:39:53 by olarseni          #+#    #+#              #
-#    Updated: 2024/11/26 21:06:51 by olarseni         ###   ########.fr        #
+#    Updated: 2024/11/27 18:40:13 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,7 @@ SRCS	=	main.c				\
 			errors_handling.c	\
 			errors_handling_2.c	\
 			sort_1.c			\
+			sort_2.c			\
 			stack_utils_1.c		\
 			stack_utils_2.c		\
 			stack_utils_3.c

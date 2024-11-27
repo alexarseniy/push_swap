@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 12:40:48 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/26 22:11:26 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/11/27 18:41:21 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,10 @@ void	swap_stack(t_stack **top);
 void	swap_both_stacks(t_stack **top_a, t_stack **top_b);
 void	push_stack(t_stack **top_dest, t_stack **top_src);
 void	rotate_stack(t_stack **top);
+void	rotate_both_stacks(t_stack **top_a, t_stack **top_b);
 void	reverse_rotate_stack(t_stack **top);
 void	reverse_rotate_both_stacks(t_stack **top_a, t_stack **top_b);
 void	print_stack(t_stack *stack);
+int		is_sorted(t_stack *stack);
 
 #endif
