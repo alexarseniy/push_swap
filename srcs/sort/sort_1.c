@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 17:20:55 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/27 20:17:05 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/01/27 07:59:14 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,47 +16,66 @@ t_stack *small_sort(t_stack *a)
 {
 	if (!a)
 		return (NULL);
-	while (!is_sorted(a))
+	if (a && a->next && !a->next->next && a->index < a->next->index)
+		return (a);
+	if (a && a->next && !a->next->next && a->index > a->next->index)
+		return (execute_move(&a, NULL, SA), a);
+	if (a && a->next && a->next->next && a->index == 0 && a->next->index == 2)
 	{
-		if (a->next && a->value < a->next->value)
-			select_move(&a, NULL, RRA);
-		else if (a->next && a->value > a->next->value)
-			select_move(&a, NULL, SA);
+		execute_move(&a, NULL, RRA);
+		execute_move(&a, NULL, SA);
+	}
+	if (a && a->next && a->next->next && a->index == 1 && a->next->index == 0)
+		execute_move(&a, NULL, SA);
+	if (a && a->next && a->next->next && a->index == 1 && a->next->index == 2)
+		execute_move(&a, NULL, RRA);
+	if (a && a->next && a->next->next && a->index == 2 && a->next->index == 0)
+		execute_move(&a, NULL, RA);
+	if (a && a->next && a->next->next && a->index == 2 && a->next->index == 1)
+	{
+		execute_move(&a, NULL, SA);
+		execute_move(&a, NULL, RRA);
 	}
 	return (a);
 }
 
 t_stack *mid_sort(t_stack *a, t_stack *b)
 {
+	t_move	next_move;
+
 	if (!a)
 		return (NULL);
 	if (is_sorted(a))
 		return (a);
 	while (stack_size(a) != 3)
-		select_move(&a, &b, PB);
+		execute_move(&a, &b, PB);
 	a = small_sort(a);
-	while (stack_size(b))
+	while (stack_size(b) || !is_sorted(a))
 	{
-		if (b->index == a->index + 1)
-		{
-			select_move(&a, &b, RA);
-			select_move(&a, &b, PA);
-		}
-		else if (b->index == a->index - 1)
-			select_move(&a, &b, PA);
-		else
-			select_move(&a, &b, RRA);
+		next_move = select_next_move(a, b);
+		execute_move(&a, &b, next_move);
 	}
-	while (!is_sorted(a))
-		select_move(&a, &b, RA);
 	return (a);
 }
 
 t_stack *big_sort(t_stack *a, t_stack *b)
 {
-	//TODO
-	if (!b)
+	if (!a)
+		return (NULL);
+	if (is_sorted(a))
 		return (a);
+	while (stack_size(a) != 3)
+	{
+		if (!b)
+			execute_move(&a, &b, PB);
+		if (b && a->index > b->index)
+			execute_move(&a, &b, PB);
+		else
+		{
+			execute_move(&a, &b, PB);
+			execute_move(&a, &b, RB);
+		}
+	}
 	return (a);
 }
 

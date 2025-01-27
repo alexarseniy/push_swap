@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 18:45:31 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/27 19:02:27 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/12/07 16:48:22 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,4 +96,13 @@ int	is_sorted(t_stack *stack)
 		stack = stack->next;
 	}
 	return (true);
+}
+
+t_stack	*stack_first(t_stack *stack)
+{
+	if (!stack)
+		return (NULL);
+	while (stack->prev)
+		stack=stack->prev;
+	return (stack);
 }

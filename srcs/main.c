@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 18:50:42 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/27 19:10:42 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/01/27 07:36:03 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,6 +104,7 @@ int	main(int argc, char **argv)
 	if (argc < 2)
 		return (error_message(ERROR_NO_ARGS));
 	stack = init_stack(argv + 1);
+	print_stack(stack);
 	if (!stack)
 		return (error_message(ERROR_INIT_STACK));
 	stack = push_swap(stack);

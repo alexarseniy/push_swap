@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 12:40:48 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/27 18:41:21 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/12/07 16:48:54 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,6 @@ void	reverse_rotate_stack(t_stack **top);
 void	reverse_rotate_both_stacks(t_stack **top_a, t_stack **top_b);
 void	print_stack(t_stack *stack);
 int		is_sorted(t_stack *stack);
+t_stack	*stack_first(t_stack *stack);
 
 #endif

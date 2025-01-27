@@ -6,14 +6,31 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 18:21:23 by olarseni          #+#    #+#             */
-/*   Updated: 2024/11/27 18:54:19 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/12/08 12:28:38 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 #include "libft.h"
+#include <stdio.h>
 
-void	select_move(t_stack **a, t_stack **b, t_move m)
+/*
+ * Function: execute_move
+ * ----------------------
+ * Function that execute a movement on each stack depending on the value of 'm'
+ * Once the movement is executed, then it will print the same movement through
+ * the function print_move. The function has no checks for each stack. This
+ * checks must to be done outside of this function. This means that the movement
+ * cannot be executed on each stack, the behavior is undefined.
+ *
+ * t_stack **a: A pointer to the first node of the stack a
+ * t_stack **b: A pointer to the first node of the stack b
+ * t_move m: The typedef of enum e_move that store the movement that will be
+ *           executed
+ *
+ * returns: No return.
+ */
+void	execute_move(t_stack **a, t_stack **b, t_move m)
 {
 	if (m == SA)
 		swap_stack(a);
@@ -40,28 +57,98 @@ void	select_move(t_stack **a, t_stack **b, t_move m)
 	print_move(m);
 }
 
+/*
+ * Function: print_move
+ * --------------------
+ * Function that prints the movement on the stack A or B that is executed.
+ *
+ * t_move m: The typedef of enum e_move that store the movement that is executed
+ *
+ * return: No return.
+ */
 void	print_move(t_move m)
 {
 	if (m == SA)
-		ft_putstr_fd("SA\n", 0);
+		printf("SA\n");
 	else if (m == SB)
-		ft_putstr_fd("SB\n", 0);
+		printf("SB\n");
 	else if (m == SS)
-		ft_putstr_fd("SS\n", 0);
+		printf("SS\n");
 	else if (m == PA)
-		ft_putstr_fd("PA\n", 0);
+		printf("PA\n");
 	else if (m == PB)
-		ft_putstr_fd("PB\n", 0);
+		printf("PB\n");
 	else if (m == RA)
-		ft_putstr_fd("RA\n", 0);
+		printf("RA\n");
 	else if (m == RB)
-		ft_putstr_fd("RB\n", 0);
+		printf("RB\n");
 	else if (m == RR)
-		ft_putstr_fd("RR\n", 0);
+		printf("RR\n");
 	else if (m == RRA)
-		ft_putstr_fd("RRA\n", 0);
+		printf("RRA\n");
 	else if (m == RRB)
-		ft_putstr_fd("RRB\n", 0);
+		printf("RRB\n");
 	else if (m == RRR)
-		ft_putstr_fd("RRR\n", 0);
+		printf("RRR\n");
+}
+
+/*
+ * Function: select_next_move
+ * --------------------------
+ * Function that based on the state of each stack, will return the best movement
+ * that can be executed.
+ *
+ * t_stack *a: The first node of the stack a
+ * t_stack *b: The first node of the stack b
+ *
+ * return: return a t_move value.
+ */
+t_move	select_next_move(t_stack *a, t_stack *b)
+{
+	if (b && b->next && b->index < b->next->index)
+		return (SB);
+	if (b && (b->index > stack_last(a)->index))
+		return (PA);
+	if (a->index == stack_last(a)->index + 1)
+		return (RRA);
+	if (a->index == stack_last(a)->index - 1)
+		return (RA);
+	if (a->index > a->next->index)
+		return (SA);
+	if (b && b_smalest(a, b))
+		return (PA);
+	return (select_rotate(a, b));
+}
+
+int	b_smalest(t_stack *a, t_stack *b)
+{
+	while (a && b && a->index > b->index)
+		a = a->next;
+	if (!a)
+		return (1);
+	return (0);
+}
+
+t_move select_rotate(t_stack *a, t_stack *b)
+{
+	float	mid_a;
+	float	i;
+
+	mid_a = stack_size(a) / 2;
+	i = 0;
+	while (a && b && (b->index > a->index || b->index == a->index + 1))
+	{
+		a = a->next;
+		i++;
+	}
+	if (a && (i > mid_a))
+		return (RRA);
+	while (a && !b && a->next && a->index == a->next->index + 1)
+	{
+		a = a->next;
+		i++;
+	}
+	if (a && i > mid_a)
+		return (RRA);
+	return (RA);
 }
