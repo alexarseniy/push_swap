@@ -1,23 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
+/*   ft_write_hex.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
+/*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/01 18:26:13 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/05 00:07:53 by olarseni         ###   ########.fr       */
+/*   Created: 2024/10/19 01:14:40 by olarseni          #+#    #+#             */
+/*   Updated: 2024/10/19 21:50:59 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_H
-# define PUSH_SWAP_H
+#include "ft_printf.h"
 
-# include "libft.h"
-# include <stdlib.h>
-# include <stdbool.h>
-# include "stack.h"
+int	ft_write_hex(unsigned int n, char c)
+{
+	int	i;
 
-int	sort_stack(t_stack **a, t_stack **b);
-
-#endif
+	i = 0;
+	if (n / 16)
+		i += ft_write_hex(n / 16, c);
+	if (c == 'x')
+		i += ft_write_char(DHEX[n % 16]);
+	else
+		i += ft_write_char(UHEX[n % 16]);
+	return (i);
+}

@@ -1,23 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
+/*   ft_write_uint.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
+/*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/01 18:26:13 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/05 00:07:53 by olarseni         ###   ########.fr       */
+/*   Created: 2024/10/19 01:10:07 by olarseni          #+#    #+#             */
+/*   Updated: 2024/10/19 16:28:37 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_H
-# define PUSH_SWAP_H
+#include "ft_printf.h"
 
-# include "libft.h"
-# include <stdlib.h>
-# include <stdbool.h>
-# include "stack.h"
+int	ft_write_uint(unsigned int n)
+{
+	int	i;
 
-int	sort_stack(t_stack **a, t_stack **b);
-
-#endif
+	i = 0;
+	if (n / 10)
+	{
+		i += ft_write_int(n / 10);
+		i += ft_write_int(n % 10);
+	}
+	else
+		i += ft_write_int(n % 10);
+	return (i);
+}

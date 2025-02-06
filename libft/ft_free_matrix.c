@@ -1,36 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_free_matrix.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/01 18:25:40 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/05 03:43:52 by olarseni         ###   ########.fr       */
+/*   Created: 2025/02/01 23:33:05 by olarseni          #+#    #+#             */
+/*   Updated: 2025/02/02 01:48:52 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include <stdlib.h>
 
-int	main(int argc, char **argv)
+int	ft_free_matrix(void **matrix, void(ft_special_free)(void **var))
 {
-	t_stack *a;
-	t_stack	*b;
+	int	i;
 
-	a = NULL;
-	b = NULL;
-	if (init_stack(&a, argc, argv) == -1)
-	{
-		ft_putstr_fd("Error\n", 2);
+	if (!matrix)
 		return (-1);
+	if (ft_special_free)
+		ft_special_free(matrix);
+	else
+	{
+		i = 0;
+		while (matrix[i])
+		{
+			free(matrix[i]);
+			matrix[i] = NULL;
+			i++;
+		}
+		free(matrix);
 	}
-	stack_print(a);
-	sort_stack(&a, &b);
-	ft_printf("\nStack a: \n");
-	stack_print(a);
-	ft_printf("\nStack b: \n");
-	stack_print(b);
-	stack_free(a);
-	stack_free(b);
 	return (0);
 }

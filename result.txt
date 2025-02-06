@@ -1,0 +1,1995 @@
+Node [0]: value [-633], final index [73]
+Node [1]: value [-307], final index [147]
+Node [2]: value [436], final index [339]
+Node [3]: value [341], final index [307]
+Node [4]: value [-910], final index [22]
+Node [5]: value [777], final index [424]
+Node [6]: value [-191], final index [172]
+Node [7]: value [782], final index [426]
+Node [8]: value [-554], final index [94]
+Node [9]: value [893], final index [462]
+Node [10]: value [-955], final index [12]
+Node [11]: value [-491], final index [105]
+Node [12]: value [824], final index [440]
+Node [13]: value [990], final index [495]
+Node [14]: value [920], final index [468]
+Node [15]: value [658], final index [399]
+Node [16]: value [584], final index [377]
+Node [17]: value [615], final index [386]
+Node [18]: value [630], final index [391]
+Node [19]: value [270], final index [281]
+Node [20]: value [-47], final index [209]
+Node [21]: value [-843], final index [32]
+Node [22]: value [161], final index [250]
+Node [23]: value [265], final index [278]
+Node [24]: value [-842], final index [33]
+Node [25]: value [-867], final index [25]
+Node [26]: value [318], final index [296]
+Node [27]: value [-945], final index [15]
+Node [28]: value [311], final index [294]
+Node [29]: value [730], final index [416]
+Node [30]: value [249], final index [274]
+Node [31]: value [-434], final index [117]
+Node [32]: value [428], final index [335]
+Node [33]: value [-84], final index [199]
+Node [34]: value [345], final index [309]
+Node [35]: value [-681], final index [61]
+Node [36]: value [-408], final index [124]
+Node [37]: value [42], final index [229]
+Node [38]: value [180], final index [259]
+Node [39]: value [-431], final index [119]
+Node [40]: value [-201], final index [169]
+Node [41]: value [-585], final index [87]
+Node [42]: value [976], final index [493]
+Node [43]: value [-623], final index [75]
+Node [44]: value [-223], final index [162]
+Node [45]: value [972], final index [491]
+Node [46]: value [96], final index [239]
+Node [47]: value [281], final index [285]
+Node [48]: value [-964], final index [10]
+Node [49]: value [-652], final index [67]
+Node [50]: value [163], final index [252]
+Node [51]: value [627], final index [390]
+Node [52]: value [742], final index [418]
+Node [53]: value [676], final index [403]
+Node [54]: value [-14], final index [218]
+Node [55]: value [-984], final index [8]
+Node [56]: value [942], final index [480]
+Node [57]: value [207], final index [265]
+Node [58]: value [563], final index [372]
+Node [59]: value [-55], final index [208]
+Node [60]: value [644], final index [395]
+Node [61]: value [840], final index [444]
+Node [62]: value [632], final index [392]
+Node [63]: value [-584], final index [88]
+Node [64]: value [-592], final index [86]
+Node [65]: value [-19], final index [215]
+Node [66]: value [338], final index [306]
+Node [67]: value [80], final index [237]
+Node [68]: value [509], final index [360]
+Node [69]: value [571], final index [373]
+Node [70]: value [953], final index [485]
+Node [71]: value [877], final index [455]
+Node [72]: value [-367], final index [133]
+Node [73]: value [-463], final index [113]
+Node [74]: value [-203], final index [168]
+Node [75]: value [418], final index [328]
+Node [76]: value [-447], final index [114]
+Node [77]: value [542], final index [369]
+Node [78]: value [922], final index [470]
+Node [79]: value [334], final index [305]
+Node [80]: value [-617], final index [77]
+Node [81]: value [399], final index [323]
+Node [82]: value [-427], final index [121]
+Node [83]: value [-619], final index [76]
+Node [84]: value [594], final index [379]
+Node [85]: value [997], final index [497]
+Node [86]: value [-313], final index [145]
+Node [87]: value [-58], final index [207]
+Node [88]: value [-136], final index [186]
+Node [89]: value [267], final index [279]
+Node [90]: value [-597], final index [84]
+Node [91]: value [481], final index [353]
+Node [92]: value [798], final index [434]
+Node [93]: value [752], final index [420]
+Node [94]: value [706], final index [412]
+Node [95]: value [-580], final index [89]
+Node [96]: value [379], final index [317]
+Node [97]: value [162], final index [251]
+Node [98]: value [944], final index [482]
+Node [99]: value [721], final index [415]
+Node [100]: value [-710], final index [55]
+Node [101]: value [363], final index [312]
+Node [102]: value [-723], final index [52]
+Node [103]: value [5], final index [221]
+Node [104]: value [651], final index [397]
+Node [105]: value [885], final index [458]
+Node [106]: value [863], final index [452]
+Node [107]: value [-361], final index [134]
+Node [108]: value [693], final index [408]
+Node [109]: value [452], final index [343]
+Node [110]: value [-309], final index [146]
+Node [111]: value [803], final index [436]
+Node [112]: value [-277], final index [151]
+Node [113]: value [-16], final index [217]
+Node [114]: value [930], final index [475]
+Node [115]: value [465], final index [346]
+Node [116]: value [696], final index [410]
+Node [117]: value [-218], final index [165]
+Node [118]: value [218], final index [267]
+Node [119]: value [-611], final index [80]
+Node [120]: value [401], final index [324]
+Node [121]: value [-417], final index [122]
+Node [122]: value [-148], final index [183]
+Node [123]: value [-261], final index [159]
+Node [124]: value [833], final index [442]
+Node [125]: value [585], final index [378]
+Node [126]: value [-747], final index [49]
+Node [127]: value [864], final index [453]
+Node [128]: value [491], final index [356]
+Node [129]: value [442], final index [341]
+Node [130]: value [562], final index [371]
+Node [131]: value [789], final index [431]
+Node [132]: value [-668], final index [64]
+Node [133]: value [275], final index [283]
+Node [134]: value [-782], final index [42]
+Node [135]: value [-689], final index [60]
+Node [136]: value [-697], final index [57]
+Node [137]: value [515], final index [364]
+Node [138]: value [257], final index [275]
+Node [139]: value [826], final index [441]
+Node [140]: value [328], final index [302]
+Node [141]: value [520], final index [365]
+Node [142]: value [-507], final index [102]
+Node [143]: value [68], final index [233]
+Node [144]: value [597], final index [380]
+Node [145]: value [-865], final index [26]
+Node [146]: value [1000], final index [499]
+Node [147]: value [-181], final index [176]
+Node [148]: value [-343], final index [139]
+Node [149]: value [844], final index [446]
+Node [150]: value [302], final index [291]
+Node [151]: value [-244], final index [161]
+Node [152]: value [-76], final index [202]
+Node [153]: value [169], final index [255]
+Node [154]: value [974], final index [492]
+Node [155]: value [-608], final index [81]
+Node [156]: value [-182], final index [175]
+Node [157]: value [288], final index [287]
+Node [158]: value [-44], final index [210]
+Node [159]: value [476], final index [350]
+Node [160]: value [675], final index [402]
+Node [161]: value [-100], final index [197]
+Node [162]: value [-357], final index [135]
+Node [163]: value [-180], final index [177]
+Node [164]: value [24], final index [226]
+Node [165]: value [85], final index [238]
+Node [166]: value [-985], final index [7]
+Node [167]: value [29], final index [227]
+Node [168]: value [-941], final index [16]
+Node [169]: value [472], final index [348]
+Node [170]: value [-976], final index [9]
+Node [171]: value [-838], final index [34]
+Node [172]: value [-778], final index [44]
+Node [173]: value [847], final index [448]
+Node [174]: value [-175], final index [179]
+Node [175]: value [-141], final index [184]
+Node [176]: value [427], final index [334]
+Node [177]: value [431], final index [337]
+Node [178]: value [500], final index [358]
+Node [179]: value [861], final index [451]
+Node [180]: value [887], final index [459]
+Node [181]: value [-262], final index [158]
+Node [182]: value [-167], final index [180]
+Node [183]: value [195], final index [262]
+Node [184]: value [906], final index [465]
+Node [185]: value [-314], final index [144]
+Node [186]: value [991], final index [496]
+Node [187]: value [662], final index [400]
+Node [188]: value [-130], final index [187]
+Node [189]: value [-345], final index [138]
+Node [190]: value [-97], final index [198]
+Node [191]: value [333], final index [304]
+Node [192]: value [-559], final index [92]
+Node [193]: value [-446], final index [115]
+Node [194]: value [364], final index [313]
+Node [195]: value [-998], final index [2]
+Node [196]: value [-139], final index [185]
+Node [197]: value [317], final index [295]
+Node [198]: value [223], final index [269]
+Node [199]: value [637], final index [393]
+Node [200]: value [-935], final index [17]
+Node [201]: value [775], final index [423]
+Node [202]: value [-383], final index [129]
+Node [203]: value [-695], final index [59]
+Node [204]: value [290], final index [288]
+Node [205]: value [-674], final index [62]
+Node [206]: value [327], final index [301]
+Node [207]: value [666], final index [401]
+Node [208]: value [-550], final index [95]
+Node [209]: value [916], final index [466]
+Node [210]: value [-814], final index [40]
+Node [211]: value [-571], final index [91]
+Node [212]: value [493], final index [357]
+Node [213]: value [439], final index [340]
+Node [214]: value [408], final index [326]
+Node [215]: value [-429], final index [120]
+Node [216]: value [55], final index [232]
+Node [217]: value [-860], final index [28]
+Node [218]: value [32], final index [228]
+Node [219]: value [600], final index [381]
+Node [220]: value [-642], final index [72]
+Node [221]: value [-864], final index [27]
+Node [222]: value [-779], final index [43]
+Node [223]: value [765], final index [422]
+Node [224]: value [-347], final index [137]
+Node [225]: value [-530], final index [99]
+Node [226]: value [-773], final index [46]
+Node [227]: value [534], final index [368]
+Node [228]: value [10], final index [222]
+Node [229]: value [-557], final index [93]
+Node [230]: value [-43], final index [211]
+Node [231]: value [970], final index [490]
+Node [232]: value [-272], final index [154]
+Node [233]: value [998], final index [498]
+Node [234]: value [259], final index [277]
+Node [235]: value [-775], final index [45]
+Node [236]: value [374], final index [315]
+Node [237]: value [17], final index [223]
+Node [238]: value [-270], final index [155]
+Node [239]: value [76], final index [235]
+Node [240]: value [-62], final index [206]
+Node [241]: value [-278], final index [150]
+Node [242]: value [151], final index [249]
+Node [243]: value [937], final index [477]
+Node [244]: value [-825], final index [37]
+Node [245]: value [-822], final index [38]
+Node [246]: value [222], final index [268]
+Node [247]: value [-117], final index [189]
+Node [248]: value [77], final index [236]
+Node [249]: value [677], final index [404]
+Node [250]: value [780], final index [425]
+Node [251]: value [-101], final index [196]
+Node [252]: value [-573], final index [90]
+Node [253]: value [323], final index [299]
+Node [254]: value [487], final index [354]
+Node [255]: value [344], final index [308]
+Node [256]: value [-111], final index [191]
+Node [257]: value [430], final index [336]
+Node [258]: value [-317], final index [143]
+Node [259]: value [928], final index [473]
+Node [260]: value [447], final index [342]
+Node [261]: value [788], final index [430]
+Node [262]: value [-665], final index [65]
+Node [263]: value [-995], final index [4]
+Node [264]: value [880], final index [457]
+Node [265]: value [171], final index [256]
+Node [266]: value [167], final index [254]
+Node [267]: value [647], final index [396]
+Node [268]: value [577], final index [375]
+Node [269]: value [-413], final index [123]
+Node [270]: value [477], final index [351]
+Node [271]: value [987], final index [494]
+Node [272]: value [966], final index [488]
+Node [273]: value [-512], final index [101]
+Node [274]: value [131], final index [245]
+Node [275]: value [282], final index [286]
+Node [276]: value [-615], final index [78]
+Node [277]: value [377], final index [316]
+Node [278]: value [-104], final index [194]
+Node [279]: value [859], final index [450]
+Node [280]: value [100], final index [240]
+Node [281]: value [580], final index [376]
+Node [282]: value [136], final index [246]
+Node [283]: value [-285], final index [149]
+Node [284]: value [845], final index [447]
+Node [285]: value [-745], final index [50]
+Node [286]: value [-156], final index [181]
+Node [287]: value [506], final index [359]
+Node [288]: value [-832], final index [36]
+Node [289]: value [-1000], final index [0]
+Node [290]: value [20], final index [225]
+Node [291]: value [-74], final index [203]
+Node [292]: value [-395], final index [126]
+Node [293]: value [-671], final index [63]
+Node [294]: value [-371], final index [132]
+Node [295]: value [929], final index [474]
+Node [296]: value [-432], final index [118]
+Node [297]: value [-716], final index [53]
+Node [298]: value [4], final index [220]
+Node [299]: value [698], final index [411]
+Node [300]: value [510], final index [361]
+Node [301]: value [-598], final index [83]
+Node [302]: value [45], final index [230]
+Node [303]: value [-847], final index [30]
+Node [304]: value [784], final index [427]
+Node [305]: value [-179], final index [178]
+Node [306]: value [-531], final index [98]
+Node [307]: value [-922], final index [20]
+Node [308]: value [-846], final index [31]
+Node [309]: value [-655], final index [66]
+Node [310]: value [-154], final index [182]
+Node [311]: value [319], final index [297]
+Node [312]: value [396], final index [321]
+Node [313]: value [299], final index [289]
+Node [314]: value [-107], final index [193]
+Node [315]: value [952], final index [484]
+Node [316]: value [-393], final index [127]
+Node [317]: value [685], final index [406]
+Node [318]: value [235], final index [271]
+Node [319]: value [-335], final index [140]
+Node [320]: value [787], final index [429]
+Node [321]: value [-66], final index [205]
+Node [322]: value [-875], final index [24]
+Node [323]: value [-29], final index [212]
+Node [324]: value [236], final index [272]
+Node [325]: value [-110], final index [192]
+Node [326]: value [165], final index [253]
+Node [327]: value [575], final index [374]
+Node [328]: value [-469], final index [111]
+Node [329]: value [-929], final index [18]
+Node [330]: value [258], final index [276]
+Node [331]: value [878], final index [456]
+Node [332]: value [-547], final index [96]
+Node [333]: value [-372], final index [131]
+Node [334]: value [174], final index [258]
+Node [335]: value [731], final index [417]
+Node [336]: value [958], final index [486]
+Node [337]: value [-220], final index [164]
+Node [338]: value [711], final index [414]
+Node [339]: value [466], final index [347]
+Node [340]: value [-216], final index [166]
+Node [341]: value [-517], final index [100]
+Node [342]: value [356], final index [311]
+Node [343]: value [821], final index [439]
+Node [344]: value [300], final index [290]
+Node [345]: value [-255], final index [160]
+Node [346]: value [-594], final index [85]
+Node [347]: value [-649], final index [68]
+Node [348]: value [330], final index [303]
+Node [349]: value [609], final index [383]
+Node [350]: value [523], final index [366]
+Node [351]: value [-276], final index [152]
+Node [352]: value [652], final index [398]
+Node [353]: value [-487], final index [108]
+Node [354]: value [309], final index [293]
+Node [355]: value [490], final index [355]
+Node [356]: value [46], final index [231]
+Node [357]: value [424], final index [331]
+Node [358]: value [751], final index [419]
+Node [359]: value [398], final index [322]
+Node [360]: value [-540], final index [97]
+Node [361]: value [-756], final index [48]
+Node [362]: value [322], final index [298]
+Node [363]: value [-389], final index [128]
+Node [364]: value [122], final index [244]
+Node [365]: value [-648], final index [69]
+Node [366]: value [559], final index [370]
+Node [367]: value [926], final index [471]
+Node [368]: value [614], final index [385]
+Node [369]: value [603], final index [382]
+Node [370]: value [-437], final index [116]
+Node [371]: value [-947], final index [14]
+Node [372]: value [325], final index [300]
+Node [373]: value [369], final index [314]
+Node [374]: value [-103], final index [195]
+Node [375]: value [173], final index [257]
+Node [376]: value [852], final index [449]
+Node [377]: value [-706], final index [56]
+Node [378]: value [423], final index [330]
+Node [379]: value [529], final index [367]
+Node [380]: value [681], final index [405]
+Node [381]: value [-185], final index [174]
+Node [382]: value [-996], final index [3]
+Node [383]: value [69], final index [234]
+Node [384]: value [793], final index [433]
+Node [385]: value [931], final index [476]
+Node [386]: value [967], final index [489]
+Node [387]: value [-613], final index [79]
+Node [388]: value [899], final index [464]
+Node [389]: value [918], final index [467]
+Node [390]: value [115], final index [243]
+Node [391]: value [-320], final index [142]
+Node [392]: value [143], final index [248]
+Node [393]: value [421], final index [329]
+Node [394]: value [307], final index [292]
+Node [395]: value [-762], final index [47]
+Node [396]: value [206], final index [264]
+Node [397]: value [-113], final index [190]
+Node [398]: value [-819], final index [39]
+Node [399]: value [709], final index [413]
+Node [400]: value [641], final index [394]
+Node [401]: value [801], final index [435]
+Node [402]: value [612], final index [384]
+Node [403]: value [416], final index [327]
+Node [404]: value [687], final index [407]
+Node [405]: value [791], final index [432]
+Node [406]: value [-187], final index [173]
+Node [407]: value [-481], final index [109]
+Node [408]: value [-286], final index [148]
+Node [409]: value [-78], final index [201]
+Node [410]: value [-488], final index [107]
+Node [411]: value [-950], final index [13]
+Node [412]: value [-321], final index [141]
+Node [413]: value [101], final index [241]
+Node [414]: value [-911], final index [21]
+Node [415]: value [-121], final index [188]
+Node [416]: value [943], final index [481]
+Node [417]: value [-6], final index [219]
+Node [418]: value [-205], final index [167]
+Node [419]: value [108], final index [242]
+Node [420]: value [807], final index [437]
+Node [421]: value [-956], final index [11]
+Node [422]: value [-724], final index [51]
+Node [423]: value [949], final index [483]
+Node [424]: value [141], final index [247]
+Node [425]: value [-396], final index [125]
+Node [426]: value [-198], final index [171]
+Node [427]: value [389], final index [319]
+Node [428]: value [891], final index [461]
+Node [429]: value [-924], final index [19]
+Node [430]: value [965], final index [487]
+Node [431]: value [-475], final index [110]
+Node [432]: value [184], final index [260]
+Node [433]: value [621], final index [388]
+Node [434]: value [-20], final index [214]
+Node [435]: value [-73], final index [204]
+Node [436]: value [875], final index [454]
+Node [437]: value [512], final index [362]
+Node [438]: value [426], final index [333]
+Node [439]: value [-643], final index [71]
+Node [440]: value [939], final index [478]
+Node [441]: value [474], final index [349]
+Node [442]: value [-713], final index [54]
+Node [443]: value [514], final index [363]
+Node [444]: value [810], final index [438]
+Node [445]: value [457], final index [344]
+Node [446]: value [189], final index [261]
+Node [447]: value [-222], final index [163]
+Node [448]: value [-490], final index [106]
+Node [449]: value [425], final index [332]
+Node [450]: value [-645], final index [70]
+Node [451]: value [458], final index [345]
+Node [452]: value [-263], final index [157]
+Node [453]: value [890], final index [460]
+Node [454]: value [-22], final index [213]
+Node [455]: value [-993], final index [5]
+Node [456]: value [896], final index [463]
+Node [457]: value [-630], final index [74]
+Node [458]: value [-266], final index [156]
+Node [459]: value [-806], final index [41]
+Node [460]: value [355], final index [310]
+Node [461]: value [212], final index [266]
+Node [462]: value [232], final index [270]
+Node [463]: value [395], final index [320]
+Node [464]: value [-856], final index [29]
+Node [465]: value [-492], final index [104]
+Node [466]: value [-696], final index [58]
+Node [467]: value [940], final index [479]
+Node [468]: value [-351], final index [136]
+Node [469]: value [-907], final index [23]
+Node [470]: value [18], final index [224]
+Node [471]: value [-200], final index [170]
+Node [472]: value [834], final index [443]
+Node [473]: value [269], final index [280]
+Node [474]: value [927], final index [472]
+Node [475]: value [-275], final index [153]
+Node [476]: value [279], final index [284]
+Node [477]: value [-604], final index [82]
+Node [478]: value [755], final index [421]
+Node [479]: value [-837], final index [35]
+Node [480]: value [-380], final index [130]
+Node [481]: value [616], final index [387]
+Node [482]: value [273], final index [282]
+Node [483]: value [432], final index [338]
+Node [484]: value [403], final index [325]
+Node [485]: value [624], final index [389]
+Node [486]: value [-467], final index [112]
+Node [487]: value [785], final index [428]
+Node [488]: value [479], final index [352]
+Node [489]: value [245], final index [273]
+Node [490]: value [-999], final index [1]
+Node [491]: value [-17], final index [216]
+Node [492]: value [388], final index [318]
+Node [493]: value [-499], final index [103]
+Node [494]: value [842], final index [445]
+Node [495]: value [921], final index [469]
+Node [496]: value [-81], final index [200]
+Node [497]: value [694], final index [409]
+Node [498]: value [-987], final index [6]
+Node [499]: value [198], final index [263]
+pb
+rb
+pb
+rb
+ra
+pb
+pb
+rb
+ra
+pb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+pb
+pb
+rb
+ra
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+ra
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+pb
+rb
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+rb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+ra
+ra
+pb
+rb
+pb
+pb
+pb
+pb
+rb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rb
+ra
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+rb
+ra
+ra
+pb
+rb
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+pb
+ra
+pb
+ra
+pb
+rb
+pb
+ra
+pb
+rb
+ra
+pb
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+pb
+ra
+pb
+rb
+pb
+pb
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+pb
+rb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+pb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+pb
+ra
+pb
+rb
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+ra
+pb
+pb
+ra
+ra
+pb
+rb
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+rb
+ra
+pb
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+pb
+rb
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+rb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+pb
+ra
+pb
+rb
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+rb
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+pb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+rb
+ra
+ra
+pb
+rb
+ra
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+ra
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+ra
+pb
+ra
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+ra
+pb
+ra
+pb
+ra
+pb
+rb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+rb
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+rb
+pb
+pb
+pb
+pb
+rb
+pb
+rb
+ra
+ra
+pb
+rb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+ra
+ra
+ra
+pb
+pb
+pb
+rb
+pb
+rb
+ra
+pb
+rb
+pb
+ra
+pb
+pb
+rb
+pb
+rb
+ra
+ra
+ra
+pb
+rb
+ra
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+pb
+pb
+rb
+ra
+pb
+ra
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+ra
+pb
+rb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+rb
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+pb
+pb
+rb
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+rb
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+rb
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+rb
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+rb
+ra
+pb
+rb
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+sa
+
+Stack a: 
+Node [0]: value [987], final index [494]
+Node [1]: value [998], final index [498]
+Node [2]: value [1000], final index [499]
+
+Stack b: 
+Node [0]: value [991], final index [496]
+Node [1]: value [997], final index [497]
+Node [2]: value [967], final index [489]
+Node [3]: value [966], final index [488]
+Node [4]: value [970], final index [490]
+Node [5]: value [974], final index [492]
+Node [6]: value [972], final index [491]
+Node [7]: value [976], final index [493]
+Node [8]: value [921], final index [469]
+Node [9]: value [927], final index [472]
+Node [10]: value [940], final index [479]
+Node [11]: value [939], final index [478]
+Node [12]: value [943], final index [481]
+Node [13]: value [918], final index [467]
+Node [14]: value [899], final index [464]
+Node [15]: value [931], final index [476]
+Node [16]: value [926], final index [471]
+Node [17]: value [929], final index [474]
+Node [18]: value [928], final index [473]
+Node [19]: value [937], final index [477]
+Node [20]: value [916], final index [466]
+Node [21]: value [906], final index [465]
+Node [22]: value [930], final index [475]
+Node [23]: value [922], final index [470]
+Node [24]: value [942], final index [480]
+Node [25]: value [920], final index [468]
+Node [26]: value [694], final index [409]
+Node [27]: value [842], final index [445]
+Node [28]: value [785], final index [428]
+Node [29]: value [755], final index [421]
+Node [30]: value [834], final index [443]
+Node [31]: value [810], final index [438]
+Node [32]: value [807], final index [437]
+Node [33]: value [791], final index [432]
+Node [34]: value [687], final index [407]
+Node [35]: value [801], final index [435]
+Node [36]: value [641], final index [394]
+Node [37]: value [709], final index [413]
+Node [38]: value [793], final index [433]
+Node [39]: value [681], final index [405]
+Node [40]: value [751], final index [419]
+Node [41]: value [652], final index [398]
+Node [42]: value [821], final index [439]
+Node [43]: value [711], final index [414]
+Node [44]: value [731], final index [417]
+Node [45]: value [787], final index [429]
+Node [46]: value [685], final index [406]
+Node [47]: value [784], final index [427]
+Node [48]: value [698], final index [411]
+Node [49]: value [647], final index [396]
+Node [50]: value [788], final index [430]
+Node [51]: value [780], final index [425]
+Node [52]: value [677], final index [404]
+Node [53]: value [765], final index [422]
+Node [54]: value [666], final index [401]
+Node [55]: value [775], final index [423]
+Node [56]: value [637], final index [393]
+Node [57]: value [662], final index [400]
+Node [58]: value [675], final index [402]
+Node [59]: value [826], final index [441]
+Node [60]: value [789], final index [431]
+Node [61]: value [833], final index [442]
+Node [62]: value [696], final index [410]
+Node [63]: value [803], final index [436]
+Node [64]: value [693], final index [408]
+Node [65]: value [651], final index [397]
+Node [66]: value [721], final index [415]
+Node [67]: value [706], final index [412]
+Node [68]: value [752], final index [420]
+Node [69]: value [798], final index [434]
+Node [70]: value [632], final index [392]
+Node [71]: value [840], final index [444]
+Node [72]: value [644], final index [395]
+Node [73]: value [676], final index [403]
+Node [74]: value [742], final index [418]
+Node [75]: value [627], final index [390]
+Node [76]: value [730], final index [416]
+Node [77]: value [630], final index [391]
+Node [78]: value [658], final index [399]
+Node [79]: value [824], final index [440]
+Node [80]: value [782], final index [426]
+Node [81]: value [777], final index [424]
+Node [82]: value [198], final index [263]
+Node [83]: value [-81], final index [200]
+Node [84]: value [388], final index [318]
+Node [85]: value [-17], final index [216]
+Node [86]: value [245], final index [273]
+Node [87]: value [403], final index [325]
+Node [88]: value [273], final index [282]
+Node [89]: value [279], final index [284]
+Node [90]: value [269], final index [280]
+Node [91]: value [-200], final index [170]
+Node [92]: value [18], final index [224]
+Node [93]: value [395], final index [320]
+Node [94]: value [232], final index [270]
+Node [95]: value [212], final index [266]
+Node [96]: value [355], final index [310]
+Node [97]: value [-22], final index [213]
+Node [98]: value [425], final index [332]
+Node [99]: value [189], final index [261]
+Node [100]: value [426], final index [333]
+Node [101]: value [-73], final index [204]
+Node [102]: value [-20], final index [214]
+Node [103]: value [184], final index [260]
+Node [104]: value [389], final index [319]
+Node [105]: value [-198], final index [171]
+Node [106]: value [141], final index [247]
+Node [107]: value [108], final index [242]
+Node [108]: value [-205], final index [167]
+Node [109]: value [-6], final index [219]
+Node [110]: value [-121], final index [188]
+Node [111]: value [101], final index [241]
+Node [112]: value [-78], final index [201]
+Node [113]: value [-187], final index [173]
+Node [114]: value [416], final index [327]
+Node [115]: value [-113], final index [190]
+Node [116]: value [206], final index [264]
+Node [117]: value [307], final index [292]
+Node [118]: value [421], final index [329]
+Node [119]: value [143], final index [248]
+Node [120]: value [115], final index [243]
+Node [121]: value [69], final index [234]
+Node [122]: value [-185], final index [174]
+Node [123]: value [423], final index [330]
+Node [124]: value [173], final index [257]
+Node [125]: value [-103], final index [195]
+Node [126]: value [369], final index [314]
+Node [127]: value [325], final index [300]
+Node [128]: value [122], final index [244]
+Node [129]: value [322], final index [298]
+Node [130]: value [398], final index [322]
+Node [131]: value [424], final index [331]
+Node [132]: value [46], final index [231]
+Node [133]: value [309], final index [293]
+Node [134]: value [330], final index [303]
+Node [135]: value [300], final index [290]
+Node [136]: value [356], final index [311]
+Node [137]: value [174], final index [258]
+Node [138]: value [258], final index [276]
+Node [139]: value [165], final index [253]
+Node [140]: value [-110], final index [192]
+Node [141]: value [236], final index [272]
+Node [142]: value [-29], final index [212]
+Node [143]: value [-66], final index [205]
+Node [144]: value [235], final index [271]
+Node [145]: value [-107], final index [193]
+Node [146]: value [299], final index [289]
+Node [147]: value [396], final index [321]
+Node [148]: value [319], final index [297]
+Node [149]: value [-154], final index [182]
+Node [150]: value [-179], final index [178]
+Node [151]: value [45], final index [230]
+Node [152]: value [4], final index [220]
+Node [153]: value [-74], final index [203]
+Node [154]: value [20], final index [225]
+Node [155]: value [-156], final index [181]
+Node [156]: value [136], final index [246]
+Node [157]: value [100], final index [240]
+Node [158]: value [-104], final index [194]
+Node [159]: value [377], final index [316]
+Node [160]: value [282], final index [286]
+Node [161]: value [131], final index [245]
+Node [162]: value [167], final index [254]
+Node [163]: value [171], final index [256]
+Node [164]: value [-111], final index [191]
+Node [165]: value [344], final index [308]
+Node [166]: value [323], final index [299]
+Node [167]: value [-101], final index [196]
+Node [168]: value [77], final index [236]
+Node [169]: value [-117], final index [189]
+Node [170]: value [222], final index [268]
+Node [171]: value [151], final index [249]
+Node [172]: value [-62], final index [206]
+Node [173]: value [76], final index [235]
+Node [174]: value [17], final index [223]
+Node [175]: value [374], final index [315]
+Node [176]: value [259], final index [277]
+Node [177]: value [-43], final index [211]
+Node [178]: value [10], final index [222]
+Node [179]: value [32], final index [228]
+Node [180]: value [55], final index [232]
+Node [181]: value [408], final index [326]
+Node [182]: value [327], final index [301]
+Node [183]: value [290], final index [288]
+Node [184]: value [223], final index [269]
+Node [185]: value [317], final index [295]
+Node [186]: value [-139], final index [185]
+Node [187]: value [364], final index [313]
+Node [188]: value [333], final index [304]
+Node [189]: value [-97], final index [198]
+Node [190]: value [-130], final index [187]
+Node [191]: value [195], final index [262]
+Node [192]: value [-167], final index [180]
+Node [193]: value [-141], final index [184]
+Node [194]: value [-175], final index [179]
+Node [195]: value [29], final index [227]
+Node [196]: value [85], final index [238]
+Node [197]: value [24], final index [226]
+Node [198]: value [-180], final index [177]
+Node [199]: value [-100], final index [197]
+Node [200]: value [-44], final index [210]
+Node [201]: value [288], final index [287]
+Node [202]: value [-182], final index [175]
+Node [203]: value [169], final index [255]
+Node [204]: value [-76], final index [202]
+Node [205]: value [302], final index [291]
+Node [206]: value [-181], final index [176]
+Node [207]: value [68], final index [233]
+Node [208]: value [328], final index [302]
+Node [209]: value [257], final index [275]
+Node [210]: value [275], final index [283]
+Node [211]: value [-148], final index [183]
+Node [212]: value [401], final index [324]
+Node [213]: value [218], final index [267]
+Node [214]: value [-16], final index [217]
+Node [215]: value [5], final index [221]
+Node [216]: value [363], final index [312]
+Node [217]: value [162], final index [251]
+Node [218]: value [379], final index [317]
+Node [219]: value [267], final index [279]
+Node [220]: value [-136], final index [186]
+Node [221]: value [-58], final index [207]
+Node [222]: value [399], final index [323]
+Node [223]: value [334], final index [305]
+Node [224]: value [418], final index [328]
+Node [225]: value [-203], final index [168]
+Node [226]: value [80], final index [237]
+Node [227]: value [338], final index [306]
+Node [228]: value [-19], final index [215]
+Node [229]: value [-55], final index [208]
+Node [230]: value [207], final index [265]
+Node [231]: value [-14], final index [218]
+Node [232]: value [163], final index [252]
+Node [233]: value [281], final index [285]
+Node [234]: value [96], final index [239]
+Node [235]: value [-201], final index [169]
+Node [236]: value [180], final index [259]
+Node [237]: value [42], final index [229]
+Node [238]: value [345], final index [309]
+Node [239]: value [-84], final index [199]
+Node [240]: value [249], final index [274]
+Node [241]: value [311], final index [294]
+Node [242]: value [318], final index [296]
+Node [243]: value [265], final index [278]
+Node [244]: value [161], final index [250]
+Node [245]: value [-47], final index [209]
+Node [246]: value [270], final index [281]
+Node [247]: value [-191], final index [172]
+Node [248]: value [341], final index [307]
+Node [249]: value [-633], final index [73]
+Node [250]: value [-307], final index [147]
+Node [251]: value [-910], final index [22]
+Node [252]: value [-554], final index [94]
+Node [253]: value [-955], final index [12]
+Node [254]: value [-491], final index [105]
+Node [255]: value [-843], final index [32]
+Node [256]: value [-842], final index [33]
+Node [257]: value [-867], final index [25]
+Node [258]: value [-945], final index [15]
+Node [259]: value [-434], final index [117]
+Node [260]: value [-681], final index [61]
+Node [261]: value [-408], final index [124]
+Node [262]: value [-431], final index [119]
+Node [263]: value [-585], final index [87]
+Node [264]: value [-623], final index [75]
+Node [265]: value [-223], final index [162]
+Node [266]: value [-964], final index [10]
+Node [267]: value [-652], final index [67]
+Node [268]: value [-984], final index [8]
+Node [269]: value [-584], final index [88]
+Node [270]: value [-592], final index [86]
+Node [271]: value [-367], final index [133]
+Node [272]: value [-463], final index [113]
+Node [273]: value [-447], final index [114]
+Node [274]: value [-617], final index [77]
+Node [275]: value [-427], final index [121]
+Node [276]: value [-619], final index [76]
+Node [277]: value [-313], final index [145]
+Node [278]: value [-597], final index [84]
+Node [279]: value [-580], final index [89]
+Node [280]: value [-710], final index [55]
+Node [281]: value [-723], final index [52]
+Node [282]: value [-361], final index [134]
+Node [283]: value [-309], final index [146]
+Node [284]: value [-277], final index [151]
+Node [285]: value [-218], final index [165]
+Node [286]: value [-611], final index [80]
+Node [287]: value [-417], final index [122]
+Node [288]: value [-261], final index [159]
+Node [289]: value [-747], final index [49]
+Node [290]: value [-668], final index [64]
+Node [291]: value [-782], final index [42]
+Node [292]: value [-689], final index [60]
+Node [293]: value [-697], final index [57]
+Node [294]: value [-507], final index [102]
+Node [295]: value [-865], final index [26]
+Node [296]: value [-343], final index [139]
+Node [297]: value [-244], final index [161]
+Node [298]: value [-608], final index [81]
+Node [299]: value [-357], final index [135]
+Node [300]: value [-985], final index [7]
+Node [301]: value [-941], final index [16]
+Node [302]: value [-976], final index [9]
+Node [303]: value [-838], final index [34]
+Node [304]: value [-778], final index [44]
+Node [305]: value [-262], final index [158]
+Node [306]: value [-314], final index [144]
+Node [307]: value [-345], final index [138]
+Node [308]: value [-559], final index [92]
+Node [309]: value [-446], final index [115]
+Node [310]: value [-998], final index [2]
+Node [311]: value [-935], final index [17]
+Node [312]: value [-383], final index [129]
+Node [313]: value [-695], final index [59]
+Node [314]: value [-674], final index [62]
+Node [315]: value [-550], final index [95]
+Node [316]: value [-814], final index [40]
+Node [317]: value [-571], final index [91]
+Node [318]: value [-429], final index [120]
+Node [319]: value [-860], final index [28]
+Node [320]: value [-642], final index [72]
+Node [321]: value [-864], final index [27]
+Node [322]: value [-779], final index [43]
+Node [323]: value [-347], final index [137]
+Node [324]: value [-530], final index [99]
+Node [325]: value [-773], final index [46]
+Node [326]: value [-557], final index [93]
+Node [327]: value [-272], final index [154]
+Node [328]: value [-775], final index [45]
+Node [329]: value [-270], final index [155]
+Node [330]: value [-278], final index [150]
+Node [331]: value [-825], final index [37]
+Node [332]: value [-822], final index [38]
+Node [333]: value [-573], final index [90]
+Node [334]: value [-317], final index [143]
+Node [335]: value [-665], final index [65]
+Node [336]: value [-995], final index [4]
+Node [337]: value [-413], final index [123]
+Node [338]: value [-512], final index [101]
+Node [339]: value [-615], final index [78]
+Node [340]: value [-285], final index [149]
+Node [341]: value [-745], final index [50]
+Node [342]: value [-832], final index [36]
+Node [343]: value [-1000], final index [0]
+Node [344]: value [-395], final index [126]
+Node [345]: value [-671], final index [63]
+Node [346]: value [-371], final index [132]
+Node [347]: value [-432], final index [118]
+Node [348]: value [-716], final index [53]
+Node [349]: value [-598], final index [83]
+Node [350]: value [-847], final index [30]
+Node [351]: value [-531], final index [98]
+Node [352]: value [-922], final index [20]
+Node [353]: value [-846], final index [31]
+Node [354]: value [-655], final index [66]
+Node [355]: value [-393], final index [127]
+Node [356]: value [-335], final index [140]
+Node [357]: value [-875], final index [24]
+Node [358]: value [-469], final index [111]
+Node [359]: value [-929], final index [18]
+Node [360]: value [-547], final index [96]
+Node [361]: value [-372], final index [131]
+Node [362]: value [-220], final index [164]
+Node [363]: value [-216], final index [166]
+Node [364]: value [-517], final index [100]
+Node [365]: value [-255], final index [160]
+Node [366]: value [-594], final index [85]
+Node [367]: value [-649], final index [68]
+Node [368]: value [-276], final index [152]
+Node [369]: value [-487], final index [108]
+Node [370]: value [-540], final index [97]
+Node [371]: value [-756], final index [48]
+Node [372]: value [-389], final index [128]
+Node [373]: value [-648], final index [69]
+Node [374]: value [-437], final index [116]
+Node [375]: value [-947], final index [14]
+Node [376]: value [-706], final index [56]
+Node [377]: value [-996], final index [3]
+Node [378]: value [-613], final index [79]
+Node [379]: value [-320], final index [142]
+Node [380]: value [-762], final index [47]
+Node [381]: value [-819], final index [39]
+Node [382]: value [-481], final index [109]
+Node [383]: value [-286], final index [148]
+Node [384]: value [-488], final index [107]
+Node [385]: value [-950], final index [13]
+Node [386]: value [-321], final index [141]
+Node [387]: value [-911], final index [21]
+Node [388]: value [-956], final index [11]
+Node [389]: value [-724], final index [51]
+Node [390]: value [-396], final index [125]
+Node [391]: value [-924], final index [19]
+Node [392]: value [-475], final index [110]
+Node [393]: value [-643], final index [71]
+Node [394]: value [-713], final index [54]
+Node [395]: value [-222], final index [163]
+Node [396]: value [-490], final index [106]
+Node [397]: value [-645], final index [70]
+Node [398]: value [-263], final index [157]
+Node [399]: value [-993], final index [5]
+Node [400]: value [-630], final index [74]
+Node [401]: value [-266], final index [156]
+Node [402]: value [-806], final index [41]
+Node [403]: value [-856], final index [29]
+Node [404]: value [-492], final index [104]
+Node [405]: value [-696], final index [58]
+Node [406]: value [-351], final index [136]
+Node [407]: value [-907], final index [23]
+Node [408]: value [-275], final index [153]
+Node [409]: value [-604], final index [82]
+Node [410]: value [-837], final index [35]
+Node [411]: value [-380], final index [130]
+Node [412]: value [-467], final index [112]
+Node [413]: value [-999], final index [1]
+Node [414]: value [-499], final index [103]
+Node [415]: value [-987], final index [6]
+Node [416]: value [436], final index [339]
+Node [417]: value [584], final index [377]
+Node [418]: value [615], final index [386]
+Node [419]: value [428], final index [335]
+Node [420]: value [563], final index [372]
+Node [421]: value [509], final index [360]
+Node [422]: value [571], final index [373]
+Node [423]: value [542], final index [369]
+Node [424]: value [594], final index [379]
+Node [425]: value [481], final index [353]
+Node [426]: value [452], final index [343]
+Node [427]: value [465], final index [346]
+Node [428]: value [585], final index [378]
+Node [429]: value [491], final index [356]
+Node [430]: value [442], final index [341]
+Node [431]: value [562], final index [371]
+Node [432]: value [515], final index [364]
+Node [433]: value [520], final index [365]
+Node [434]: value [597], final index [380]
+Node [435]: value [476], final index [350]
+Node [436]: value [472], final index [348]
+Node [437]: value [427], final index [334]
+Node [438]: value [431], final index [337]
+Node [439]: value [500], final index [358]
+Node [440]: value [493], final index [357]
+Node [441]: value [439], final index [340]
+Node [442]: value [600], final index [381]
+Node [443]: value [534], final index [368]
+Node [444]: value [487], final index [354]
+Node [445]: value [430], final index [336]
+Node [446]: value [447], final index [342]
+Node [447]: value [577], final index [375]
+Node [448]: value [477], final index [351]
+Node [449]: value [580], final index [376]
+Node [450]: value [506], final index [359]
+Node [451]: value [510], final index [361]
+Node [452]: value [575], final index [374]
+Node [453]: value [466], final index [347]
+Node [454]: value [609], final index [383]
+Node [455]: value [523], final index [366]
+Node [456]: value [490], final index [355]
+Node [457]: value [559], final index [370]
+Node [458]: value [614], final index [385]
+Node [459]: value [603], final index [382]
+Node [460]: value [529], final index [367]
+Node [461]: value [612], final index [384]
+Node [462]: value [621], final index [388]
+Node [463]: value [512], final index [362]
+Node [464]: value [474], final index [349]
+Node [465]: value [514], final index [363]
+Node [466]: value [457], final index [344]
+Node [467]: value [458], final index [345]
+Node [468]: value [616], final index [387]
+Node [469]: value [432], final index [338]
+Node [470]: value [624], final index [389]
+Node [471]: value [479], final index [352]
+Node [472]: value [893], final index [462]
+Node [473]: value [877], final index [455]
+Node [474]: value [885], final index [458]
+Node [475]: value [863], final index [452]
+Node [476]: value [864], final index [453]
+Node [477]: value [844], final index [446]
+Node [478]: value [847], final index [448]
+Node [479]: value [861], final index [451]
+Node [480]: value [887], final index [459]
+Node [481]: value [880], final index [457]
+Node [482]: value [859], final index [450]
+Node [483]: value [845], final index [447]
+Node [484]: value [878], final index [456]
+Node [485]: value [852], final index [449]
+Node [486]: value [891], final index [461]
+Node [487]: value [875], final index [454]
+Node [488]: value [890], final index [460]
+Node [489]: value [896], final index [463]
+Node [490]: value [953], final index [485]
+Node [491]: value [944], final index [482]
+Node [492]: value [952], final index [484]
+Node [493]: value [958], final index [486]
+Node [494]: value [949], final index [483]
+Node [495]: value [965], final index [487]
+Node [496]: value [990], final index [495]

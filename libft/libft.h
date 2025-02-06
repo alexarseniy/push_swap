@@ -6,7 +6,7 @@
 /*   By: olarseni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 23:46:31 by olarseni          #+#    #+#             */
-/*   Updated: 2024/10/03 23:23:35 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/02/02 01:49:07 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <stdlib.h>
 # include <stdint.h>
 # include <unistd.h>
+# include "get_next_line.h"
+# include "ft_printf.h"
 
 typedef struct s_list
 {
@@ -69,5 +71,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+int		ft_free_matrix(void **matrix, void(ft_special_free)(void **var));
 
 #endif

@@ -6,7 +6,7 @@
 #    By: olarseni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/25 01:42:05 by olarseni          #+#    #+#              #
-#    Updated: 2024/10/28 14:52:49 by olarseni         ###   ########.fr        #
+#    Updated: 2025/02/01 23:39:23 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,8 @@
 #####################
 
 NAME	=	libft.a
+
+VPATH	=	ft_printf
 
 SRCS	=	ft_isalpha.c\
 			ft_isdigit.c\
@@ -49,9 +51,20 @@ SRCS	=	ft_isalpha.c\
 			ft_putchar_fd.c\
 			ft_putstr_fd.c\
 			ft_putendl_fd.c\
-			ft_putnbr_fd.c
+			ft_putnbr_fd.c\
+			get_next_line.c\
+			get_next_line_utils.c\
+			ft_free_matrix.c
 
-HEADER	=	libft.h
+
+# Headers
+HEADER		=	libft.h
+GNL_HDR		=	get_next_line.h
+PRINTF_HDR	=	ft_printf.h
+
+#Headers dir
+PRINTF_DIR	=	ft_printf/includes
+
 
 OBJS	=	$(SRCS:.c=.o)
 
@@ -69,15 +82,18 @@ BOBJS	=	$(BSRCS:.c=.o)
 
 CC		=	cc
 CFLAGS	=	-Wall -Werror -Wextra
+IFLAGS	=	-I$(PRINTF_DIR)
 
 #############
 #	RULES	#
 #############
 
-%.o: %.c $(HEADER)
-	$(CC) $(CFLAGS) -c -o $@  $<
+%.o: %.c $(HEADER) $(GNL_HDR)
+	$(CC) $(CFLAGS) -c -o $@  $< $(IFLAGS)
 
 $(NAME): $(OBJS)
+	$(MAKE) --silent -C ft_printf
+	cp ft_printf/libftprintf.a ./libft.a
 	ar -rc $@ $(OBJS)
 	ranlib $@
 
@@ -88,10 +104,12 @@ bonus: $(NAME) $(BOBJS)
 	ranlib $(NAME)
 
 clean:
+	$(MAKE) --silent -C ft_printf clean
 	rm -f $(OBJS)
 	rm -f $(BOBJS)
 
 fclean: clean
+	rm -f ft_printf/libftprintf.a
 	rm -f $(NAME)
 
 re: fclean all

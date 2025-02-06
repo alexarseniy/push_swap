@@ -1,23 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
+/*   ft_write_char.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
+/*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/01 18:26:13 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/05 00:07:53 by olarseni         ###   ########.fr       */
+/*   Created: 2024/10/19 00:09:26 by olarseni          #+#    #+#             */
+/*   Updated: 2024/10/19 15:48:49 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_H
-# define PUSH_SWAP_H
+#include "ft_printf.h"
 
-# include "libft.h"
-# include <stdlib.h>
-# include <stdbool.h>
-# include "stack.h"
-
-int	sort_stack(t_stack **a, t_stack **b);
-
-#endif
+int	ft_write_char(char c)
+{
+	return (write(1, &c, 1));
+}

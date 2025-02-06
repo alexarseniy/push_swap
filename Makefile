@@ -6,7 +6,7 @@
 #    By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/20 20:39:53 by olarseni          #+#    #+#              #
-#    Updated: 2024/11/27 18:40:13 by olarseni         ###   ########.fr        #
+#    Updated: 2025/02/05 00:08:19 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,15 +19,17 @@ NAME	=	push_swap
 
 
 # Sources with VPATH
-VPATH	=	srcs srcs/error_handler srcs/sort srcs/stack_utils
+VPATH	=	srcs srcs/stack srcs/checker
 SRCS	=	main.c				\
-			errors_handling.c	\
-			errors_handling_2.c	\
-			sort_1.c			\
-			sort_2.c			\
-			stack_utils_1.c		\
-			stack_utils_2.c		\
-			stack_utils_3.c
+			stack_utils.c		\
+			stack_helpers.c		\
+			init_stack.c		\
+			is_valid_input.c	\
+			basic_movements.c	\
+			double_movements.c	\
+			move_stack.c		\
+			sort_stack.c
+
 
 # Objects
 ODIR	=	objects
@@ -39,13 +41,14 @@ IDIR	=	includes
 # LIBFT
 LDIR	=	libft
 LIBFT	=	libft.a
+LPRINTF	=	libft/ft_printf/includes
 
 # Compiler
 CC		=	cc
 
 # Flags
 CFLAGS	=	-Wall -Wextra -Werror -g
-IFLAGS	=	-I$(IDIR) -I$(LDIR)
+IFLAGS	=	-I$(IDIR) -I$(LDIR) -I$(LPRINTF)
 LFLAGS	=	-L$(LDIR) -lft
 
 ################################################################################
