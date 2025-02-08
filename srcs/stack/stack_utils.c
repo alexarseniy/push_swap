@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 20:21:05 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/04 23:15:34 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/02/08 03:53:34 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ t_stack	*stack_new(int value)
  *
  *  return: the first element or NULL if the node is NULL.
  */
-t_stack *stack_first(t_stack *node)
+t_stack	*stack_first(t_stack *node)
 {
 	if (!node)
 		return (NULL);
@@ -69,7 +69,7 @@ t_stack *stack_first(t_stack *node)
  *
  * return: the last node of the stack.
  */
-t_stack *stack_last(t_stack *node)
+t_stack	*stack_last(t_stack *node)
 {
 	if (!node)
 		return (NULL);
@@ -124,7 +124,7 @@ int	stack_size(t_stack *node)
 
 int	stack_add_last(t_stack **node, t_stack *new)
 {
-	t_stack *last;
+	t_stack	*last;
 
 	if (!node || !new)
 		return (-1);

@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 18:44:35 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/06 20:01:43 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/02/08 03:36:58 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,7 @@ typedef struct s_stack
 }	t_stack;
 
 /*
- * Prototype functions to initialize stack
+ * Prototype functions
  */
 t_stack	*stack_new(int value);
 t_stack	*stack_last(t_stack *node);
@@ -93,5 +93,7 @@ int		stack_sswap(t_stack **a, t_stack **b);
 int		stack_rrotate(t_stack **a, t_stack **b);
 int		stack_rev_rrotate(t_stack **a, t_stack **b);
 bool	is_sorted(t_stack *a);
+t_stack *stack_min(t_stack *s);
+t_stack *stack_max(t_stack *s);
 
 #endif

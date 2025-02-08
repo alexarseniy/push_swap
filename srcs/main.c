@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 18:25:40 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/05 03:43:52 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/02/08 05:37:53 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	main(int argc, char **argv)
 {
-	t_stack *a;
+	t_stack	*a;
 	t_stack	*b;
 
 	a = NULL;
@@ -24,12 +24,7 @@ int	main(int argc, char **argv)
 		ft_putstr_fd("Error\n", 2);
 		return (-1);
 	}
-	stack_print(a);
 	sort_stack(&a, &b);
-	ft_printf("\nStack a: \n");
-	stack_print(a);
-	ft_printf("\nStack b: \n");
-	stack_print(b);
 	stack_free(a);
 	stack_free(b);
 	return (0);

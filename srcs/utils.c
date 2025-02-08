@@ -1,35 +1,51 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort_stack.c                                       :+:      :+:    :+:   */
+/*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/04 23:47:35 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/08 03:49:10 by olarseni         ###   ########.fr       */
+/*   Created: 2025/02/08 03:39:13 by olarseni          #+#    #+#             */
+/*   Updated: 2025/02/08 03:52:29 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	sort_stack(t_stack **a, t_stack **b)
+int	ft_abs(int num)
 {
-	int	size;
-
-	size = stack_size(*a);
-	if (!a)
-		return (-1);
-	if (is_sorted(*a))
-		return (0);
-	if (size == 2 && (*a)->f_pos == 1)
-		stack_move(a, b, SA);
-	else if (size == 3 && !sort_3(a, b))
-		return (0);
-	else if (size == 4 && !sort_4(a, b))
-		return (0);
-	else if (size == 5 && !sort_5(a, b))
-		return (0);
+	if (num > 0)
+		return (num);
 	else
-		big_sort(a, b);
-	return (-1);
+		return (-num);
+}
+
+int	ft_min(int a, int b)
+{
+	if (a > b)
+		return (b);
+	else
+		return (a);
+}
+
+int	ft_max(int a, int b)
+{
+	if (a > b)
+		return (a);
+	else
+		return (b);
+}
+
+t_stack	*min_cost(t_stack *node)
+{
+	t_stack	*aux;
+
+	aux = node;
+	while (node)
+	{
+		if (aux->cost > node->cost)
+			aux = node;
+		node = node->next;
+	}
+	return (aux);
 }

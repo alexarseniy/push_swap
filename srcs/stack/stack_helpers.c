@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.madrid42.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 21:09:22 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/05 21:31:24 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/02/08 03:35:57 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,4 +76,40 @@ bool	is_sorted(t_stack *s)
 		s = s->next;
 	}
 	return (true);
+}
+
+t_stack	*stack_min(t_stack *s)
+{
+	t_stack	*result;
+
+	if (!s)
+		return (NULL);
+	if (stack_size(s) == 1)
+		return (s);
+	result = s;
+	while (s)
+	{
+		if (s->f_pos < result->f_pos)
+			result = s;
+		s = s->next;
+	}
+	return (result);
+}
+
+t_stack	*stack_max(t_stack *s)
+{
+	t_stack	*result;
+
+	if (!s)
+		return (NULL);
+	if (stack_size(s) == 1)
+		return (s);
+	result = s;
+	while (s)
+	{
+		if (s->f_pos > result->f_pos)
+			result = s;
+		s = s->next;
+	}
+	return (result);
 }

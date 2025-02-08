@@ -6,7 +6,7 @@
 #    By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/20 20:39:53 by olarseni          #+#    #+#              #
-#    Updated: 2025/02/05 00:08:19 by olarseni         ###   ########.fr        #
+#    Updated: 2025/02/08 03:49:35 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,8 +28,11 @@ SRCS	=	main.c				\
 			basic_movements.c	\
 			double_movements.c	\
 			move_stack.c		\
-			sort_stack.c
-
+			sort_stack.c		\
+			calculate_cost.c	\
+			big_sort.c			\
+			utils.c				\
+			small_sorts.c
 
 # Objects
 ODIR	=	objects
