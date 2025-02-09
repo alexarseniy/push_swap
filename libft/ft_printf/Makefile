@@ -6,7 +6,7 @@
 #    By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/17 22:54:11 by olarseni          #+#    #+#              #
-#    Updated: 2024/10/19 17:08:44 by olarseni         ###   ########.fr        #
+#    Updated: 2025/02/09 02:09:59 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,12 +69,10 @@ $(ODIR)/%.o: $(SDIR)/%.c $(IDIR)/$(INCL) | $(ODIR)
 # clean rule: Remove object files
 clean:
 	@rm -rf $(ODIR)
-	@echo "$(BRED)$(BOLD)$(NAME) objects files are deleted!$(RESET)"
 
 # full clean rule: Remove .a files
 fclean: clean
 	@rm -rf $(NAME)
-	@echo "$(BRED)$(BOLD)$(NAME) is deleted!$(RESET)"
 
 # Recompile
 re: fclean all
@@ -82,7 +80,6 @@ re: fclean all
 # name: name rule to compile libftprintft.a
 $(NAME): $(OBJS) 
 	@ar -rcs $(NAME) $(OBJS)
-	@echo "$(GREEN)$(BOLD)The library is compiled!$(RESET)"
 
 $(ODIR):
 	@mkdir -p $(ODIR)

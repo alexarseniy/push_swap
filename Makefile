@@ -6,7 +6,7 @@
 #    By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/20 20:39:53 by olarseni          #+#    #+#              #
-#    Updated: 2025/02/08 03:49:35 by olarseni         ###   ########.fr        #
+#    Updated: 2025/02/09 02:07:49 by olarseni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -86,10 +86,9 @@ $(ODIR)/%.o: %.c | $(ODIR)
 	@$(CC) $(CFLAGS) $(IFLAGS) -o $@ -c $<
 
 $(NAME): $(OBJS)
-	@make --silent -C $(LDIR) $(LIBFT)
-	@$(CC) $(CFLAGS) $(IFLAGS) -o $@ $^ $(LFLAGS)
 	@make --silent header
 	@make --silent compile
+	@$(CC) $(CFLAGS) $(IFLAGS) -o $@ $^ $(LFLAGS)
 	@echo "$(LGREEN)$(BOLD)COMPILATION FINISHED $(RESET)🎉"
 	@make --silent footer
 
@@ -128,6 +127,7 @@ compile:
 	@echo "$(LGREEN)$(FAINT)OBJS...$(RESET)"
 	@sleep 0.1
 	@echo "$(LGREEN)$(FAINT)LIBFT...$(RESET)"
+	@make --silent -C $(LDIR) $(LIBFT)
 	@sleep 0.1
 	@echo "$(LGREEN)$(FAINT)$(NAME)...$(RESET)"
 	@sleep 0.1
