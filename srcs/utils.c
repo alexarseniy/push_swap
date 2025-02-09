@@ -6,7 +6,7 @@
 /*   By: olarseni <olarseni@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 03:39:13 by olarseni          #+#    #+#             */
-/*   Updated: 2025/02/08 03:52:29 by olarseni         ###   ########.fr       */
+/*   Updated: 2025/02/08 23:37:13 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,14 +36,17 @@ int	ft_max(int a, int b)
 		return (b);
 }
 
-t_stack	*min_cost(t_stack *node)
+t_stack	*min_cost(t_stack *node, int pivot_min, int pivot_max)
 {
 	t_stack	*aux;
 
-	aux = node;
+	aux = NULL;
 	while (node)
 	{
-		if (aux->cost > node->cost)
+		if (!aux && node->f_pos >= pivot_min && node->f_pos <= pivot_max)
+			aux = node;
+		if (aux && aux->cost > node->cost && node->f_pos >= pivot_min
+			&& node->f_pos <= pivot_max)
 			aux = node;
 		node = node->next;
 	}
